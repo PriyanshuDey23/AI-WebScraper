@@ -24,7 +24,7 @@ This project is a **Streamlit web app** that allows users to **scrape website co
 ## Setup & Installation
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/PriyanshuDey23/AI-WebScraper.git
 cd YOUR_REPO
 ```
 
@@ -50,7 +50,7 @@ streamlit run app.py
 ### 2️⃣ Deploy on [Streamlit Cloud](https://share.streamlit.io)
 - Log in to Streamlit Cloud
 - Click **"New App"** and select your GitHub repository
-- Set the **branch** to `main` and **Python file** to `app.py`
+- Set the **branch** to `main` and **Python file** to `main.py`
 
 ### 3️⃣ Add Secrets
 Go to **"Manage App" → "Secrets"** and add:
