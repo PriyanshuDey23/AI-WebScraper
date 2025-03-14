@@ -1,5 +1,7 @@
 # Web Scraper & AI Q&A Chatbot
 
+[![Website](https://img.shields.io/badge/Website-Click%20Here-blue)](https://a-webscraper.streamlit.app/)
+
 ![](output.png)
 
 ## Overview
