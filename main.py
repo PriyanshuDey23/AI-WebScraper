@@ -7,6 +7,17 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import LLMChain
 
+
+# Inject custom CSS
+hide_github_icon = """
+    <style>
+        [data-testid="stToolbar"] a {
+            display: none !important;
+        }
+    </style>
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 # Streamlit UI Header
 st.title("🌍 Web Scraper & QA Chatbot")
 st.markdown("### Enter a website URL, scrape content, and ask questions based on it.")
