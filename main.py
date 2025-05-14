@@ -11,9 +11,15 @@ from langchain.chains import LLMChain
 # Inject custom CSS
 hide_github_icon = """
     <style>
-        [data-testid="stToolbar"] a {
+        /* Hide GitHub icon */
+        a[href*="github.com"] {
             display: none !important;
         }
+
+        /* Optional: Hide the entire toolbar (if desired) */
+        /* [data-testid="stToolbar"] {
+            visibility: hidden !important;
+        } */
     </style>
 """
 st.markdown(hide_github_icon, unsafe_allow_html=True)
